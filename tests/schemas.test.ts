@@ -259,7 +259,7 @@ describe("COREOR detection + diagnostics", () => {
   });
 
   it("fires EXPIRED_RELEASE on a past DTM+36 expiration", () => {
-    const broken = SAMPLE_COREOR.replace("DTM+36:202606101200:203", "DTM+36:202001011200:203");
+    const broken = SAMPLE_COREOR.replace("DTM+36:203006101200:203", "DTM+36:202001011200:203");
     const r = parse(broken);
     const diags = diagnoseSingle(r);
     expect(diags.some((d) => d.code === "EXPIRED_RELEASE")).toBe(true);

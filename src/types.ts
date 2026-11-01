@@ -1,5 +1,5 @@
 // ============================================================
-// @prefixcheck/edi · public type surface
+// @xultrax-web/edi · public type surface
 //
 // Shared interfaces for the parser, schema, and diagnostic layers.
 // ============================================================

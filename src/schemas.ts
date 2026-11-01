@@ -1,5 +1,5 @@
 // ============================================================
-// @prefixcheck/edi · CODECO + COPRAR schemas, code lists, diagnostics
+// @xultrax-web/edi · CODECO + COPRAR schemas, code lists, diagnostics
 //
 // Sourced from:
 //   - UN/EDIFACT D.00B directories (UNECE)
@@ -1154,7 +1154,7 @@ function buildEqdMap(parsed: ParsedMessage): Record<string, EqdRecord> {
  *
  * @example
  * ```ts
- * import { parse, reconcile } from "@prefixcheck/edi";
+ * import { parse, reconcile } from "@xultrax-web/edi";
  * const coprar = parse(coprarText);
  * const codeco = parse(codecoText);
  * const report = reconcile(coprar, codeco);

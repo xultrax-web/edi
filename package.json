@@ -1,5 +1,5 @@
 {
-  "name": "@prefixcheck/edi",
+  "name": "@xultrax-web/edi",
   "version": "0.2.0",
   "description": "Operator-grade EDIFACT decoder for the container-shipping operator stack: CODECO, COPRAR, IFTSTA, COREOR. SMDG-aware validation, ISO 6346 check-digit verification, UN/LOCODE cross-reference, COPRAR ↔ CODECO reconciliation. Pure TypeScript, zero dependencies, browser- and Node-friendly.",
   "type": "module",
@@ -59,13 +59,13 @@
     "parser",
     "validator"
   ],
-  "homepage": "https://prefixcheck.com/container-edi/",
+  "homepage": "https://github.com/xultrax-web/edi#readme",
   "bugs": {
-    "url": "https://github.com/xultrax-web/prefixcheck-edi/issues"
+    "url": "https://github.com/xultrax-web/edi/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xultrax-web/prefixcheck-edi.git"
+    "url": "git+https://github.com/xultrax-web/edi.git"
   },
   "license": "MIT",
   "publishConfig": {

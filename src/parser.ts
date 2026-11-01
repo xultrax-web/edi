@@ -1,5 +1,5 @@
 // ============================================================
-// @prefixcheck/edi · EDIFACT tokenizer + envelope handling
+// @xultrax-web/edi · EDIFACT tokenizer + envelope handling
 //
 // Universal layer that turns raw EDIFACT text into a structured
 // object tree. The schema layer (CODECO/COPRAR validation) runs
@@ -180,7 +180,7 @@ function extractEnvelopes(segments: Segment[]): EnvelopeResult {
  *
  * @example
  * ```ts
- * import { parse } from "@prefixcheck/edi";
+ * import { parse } from "@xultrax-web/edi";
  * const parsed = parse("UNH+1+CODECO:D:00B:UN:SMDG21'BGM+34+REF+9'...");
  * console.log(parsed.message?.type); // "CODECO"
  * ```

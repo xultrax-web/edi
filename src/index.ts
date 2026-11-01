@@ -1,5 +1,5 @@
 // ============================================================
-// @prefixcheck/edi · public entry
+// @xultrax-web/edi · public entry
 //
 // Operator-grade EDIFACT CODECO + COPRAR decoder, SMDG validator,
 // and COPRAR ↔ CODECO reconciler. Pure TypeScript, zero deps,
@@ -7,7 +7,7 @@
 //
 // Quick start:
 //
-//   import { parse, diagnoseSingle, reconcile, SAMPLE_CODECO } from "@prefixcheck/edi";
+//   import { parse, diagnoseSingle, reconcile, SAMPLE_CODECO } from "@xultrax-web/edi";
 //
 //   const parsed = parse(SAMPLE_CODECO);
 //   console.log(parsed.message?.type);           // "CODECO"

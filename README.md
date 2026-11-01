@@ -1,13 +1,13 @@
-# @prefixcheck/edi
+# @xultrax-web/edi
 
 Operator-grade EDIFACT decoder for the container-shipping operator stack: **CODECO**, **COPRAR**, **IFTSTA**, **COREOR**. **SMDG-aware** validation, ISO 6346 check-digit verification, UN/LOCODE extraction, and COPRAR ↔ CODECO **cross-message reconciliation**. Pure TypeScript, zero dependencies, browser- and Node-friendly.
 
 ```bash
-npm install @prefixcheck/edi
+npm install @xultrax-web/edi
 ```
 
 ```ts
-import { parse, diagnoseSingle, reconcile, SAMPLE_CODECO, SAMPLE_COPRAR } from "@prefixcheck/edi";
+import { parse, diagnoseSingle, reconcile, SAMPLE_CODECO, SAMPLE_COPRAR } from "@xultrax-web/edi";
 
 const parsed = parse(SAMPLE_CODECO);
 console.log(parsed.message?.type); // "CODECO"
@@ -174,7 +174,7 @@ import type {
   ReconcileReport,
   MessageType,
   MessageSchema,
-} from "@prefixcheck/edi";
+} from "@xultrax-web/edi";
 ```
 
 ---
@@ -183,7 +183,7 @@ import type {
 
 Works in any modern browser via a bundler (Vite, Rollup, Webpack, esbuild). No DOM or Node-only APIs are used.
 
-The companion in-browser decoder lives at [prefixcheck.com/container-edi/](https://prefixcheck.com/container-edi/) — same parser, same schemas, same diagnostics, with a UI.
+Built by [Peach & Madison Design](https://peachandmadison.com).
 
 ---
 

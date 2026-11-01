@@ -1,5 +1,5 @@
 // ============================================================
-// @prefixcheck/edi · sample messages for demos, tests, and docs
+// @xultrax-web/edi · sample messages for demos, tests, and docs
 //
 // Real-shape SMDG D.00B CODECO + COPRAR messages with valid
 // ISO 6346 container check digits. The container number
@@ -152,7 +152,7 @@ UNH+COR0001+COREOR:D:00B:UN:SMDG20'
 BGM+12+COR0001+9'
 DTM+137:202605241300:203'
 RFF+AAY:REL-MSCU-NYC-2026-00042'
-DTM+36:202606101200:203'
+DTM+36:203006101200:203'
 TDT+20+251NB+1+13+MSCU:172:20+++9876543:146:11::MSC MAYA'
 DTM+132:202606051400:203'
 LOC+9+NLRTM:139:6'
